@@ -1,0 +1,1 @@
+python3 crawler.py https://salamandra.info/libro/harry-potter-y-piedra-filosofal https://es.wikipedia.org/wiki/Harry_Potter https://harrypotter.fandom.com/es/wiki/Harry_Potter
