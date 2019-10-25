@@ -52,7 +52,7 @@ class Crawler:
         :return: String content in url
         """
         try:
-            h = requests.head(url, timeout=5)
+            h = requests.head(url, timeout=2)
             ct = h.headers.get('content-type').split(';')[0]
             if not ct == 'text/html':
                 return ''
