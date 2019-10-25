@@ -1,4 +1,4 @@
 default_save_dir = "./"
-page_count = 100
-relevant_count = 10
+page_count = 10000
+relevant_count = 1000
 
