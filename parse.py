@@ -7,7 +7,7 @@ from math import sqrt
 
 def parse(html):
     soap = BeautifulSoup(html, 'html.parser')
-    text_from_html = soap.body.get_text()
+    text_from_html = soap.get_text()
     return get_tokens(text_from_html)
 
 
